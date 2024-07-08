@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#buttons-container {
+    margin-bottom: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkblue;
+}
+
+#calculator-container {
+    margin-top: 20px;
+}
+
+.split-time, .total-time {
+    margin-bottom: 10px;
+}
+
+.lap-times {
+    margin-top: 20px;
+}
+
+.lap-times-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lap-times-column {
+    width: 30%;
+}
+
+.lap-times-column h3 {
+    text-align: center;
+}
+
+.lap-time-result {
+    margin-bottom: 5px;
+}
+
+
